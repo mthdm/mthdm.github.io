@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://mthdm.cc/"/>
-  <updated>2020-04-04T04:33:18.713Z</updated>
+  <updated>2020-04-04T06:39:55.843Z</updated>
   <id>https://mthdm.cc/</id>
   
   <author>
@@ -17,34 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hello World</title>
-    <link href="https://mthdm.cc/2020/04/04/hello-world/"/>
-    <id>https://mthdm.cc/2020/04/04/hello-world/</id>
-    <published>2020-04-04T04:33:18.713Z</published>
-    <updated>2020-04-04T04:33:18.713Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a
-        
-      
-    
-    </summary>
-    
-    
-    
-  </entry>
-  
-  <entry>
     <title>使用Nginx反向代理访问Pixiv</title>
     <link href="https://mthdm.cc/2019/11/09/16/"/>
     <id>https://mthdm.cc/2019/11/09/16/</id>
     <published>2019-11-09T07:11:11.000Z</published>
-    <updated>2019-11-10T07:03:17.897Z</updated>
+    <updated>2020-04-04T06:39:55.843Z</updated>
     
     <summary type="html">
     
@@ -59,10 +36,12 @@
     </summary>
     
     
-      <category term="技术文档" scheme="https://mthdm.cc/categories/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/"/>
+      <category term="正经的" scheme="https://mthdm.cc/categories/%E6%AD%A3%E7%BB%8F%E7%9A%84/"/>
     
     
-      <category term="技术文档" scheme="https://mthdm.cc/tags/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/"/>
+      <category term="pixiv" scheme="https://mthdm.cc/tags/pixiv/"/>
+    
+      <category term="反向代理" scheme="https://mthdm.cc/tags/%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86/"/>
     
   </entry>
   
@@ -71,7 +50,7 @@
     <link href="https://mthdm.cc/2019/01/24/14/"/>
     <id>https://mthdm.cc/2019/01/24/14/</id>
     <published>2019-01-24T03:11:11.000Z</published>
-    <updated>2019-10-13T07:52:47.061Z</updated>
+    <updated>2020-04-04T06:40:26.486Z</updated>
     
     <summary type="html">
     
@@ -88,14 +67,12 @@ sudo
     </summary>
     
     
-      <category term="树莓派&amp;香橙派" scheme="https://mthdm.cc/categories/%E6%A0%91%E8%8E%93%E6%B4%BE-%E9%A6%99%E6%A9%99%E6%B4%BE/"/>
+      <category term="正经的" scheme="https://mthdm.cc/categories/%E6%AD%A3%E7%BB%8F%E7%9A%84/"/>
     
-      <category term="技术文档" scheme="https://mthdm.cc/categories/%E6%A0%91%E8%8E%93%E6%B4%BE-%E9%A6%99%E6%A9%99%E6%B4%BE/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/"/>
+      <category term="树莓派&amp;香橙派" scheme="https://mthdm.cc/categories/%E6%AD%A3%E7%BB%8F%E7%9A%84/%E6%A0%91%E8%8E%93%E6%B4%BE-%E9%A6%99%E6%A9%99%E6%B4%BE/"/>
     
     
       <category term="树莓派&amp;香橙派" scheme="https://mthdm.cc/tags/%E6%A0%91%E8%8E%93%E6%B4%BE-%E9%A6%99%E6%A9%99%E6%B4%BE/"/>
-    
-      <category term="技术文档" scheme="https://mthdm.cc/tags/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/"/>
     
   </entry>
   
@@ -104,7 +81,7 @@ sudo
     <link href="https://mthdm.cc/2018/12/09/133/"/>
     <id>https://mthdm.cc/2018/12/09/133/</id>
     <published>2018-12-09T03:11:11.000Z</published>
-    <updated>2020-04-04T06:36:00.062Z</updated>
+    <updated>2020-04-04T06:39:05.780Z</updated>
     
     <summary type="html">
     
@@ -120,10 +97,8 @@ sudo
     </summary>
     
     
-      <category term="技术文档" scheme="https://mthdm.cc/categories/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/"/>
+      <category term="正经的" scheme="https://mthdm.cc/categories/%E6%AD%A3%E7%BB%8F%E7%9A%84/"/>
     
-    
-      <category term="日常杂谈" scheme="https://mthdm.cc/tags/%E6%97%A5%E5%B8%B8%E6%9D%82%E8%B0%88/"/>
     
       <category term="技术文档" scheme="https://mthdm.cc/tags/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/"/>
     
@@ -134,7 +109,7 @@ sudo
     <link href="https://mthdm.cc/2018/08/22/9/"/>
     <id>https://mthdm.cc/2018/08/22/9/</id>
     <published>2018-08-22T06:28:59.000Z</published>
-    <updated>2019-10-13T06:56:09.852Z</updated>
+    <updated>2020-04-04T06:40:53.303Z</updated>
     
     <summary type="html">
     
@@ -149,12 +124,10 @@ sudo
     </summary>
     
     
-      <category term="HEXO" scheme="https://mthdm.cc/categories/HEXO/"/>
+      <category term="正经的" scheme="https://mthdm.cc/categories/%E6%AD%A3%E7%BB%8F%E7%9A%84/"/>
     
-      <category term="技术文档" scheme="https://mthdm.cc/categories/HEXO/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/"/>
+      <category term="HEXO" scheme="https://mthdm.cc/categories/%E6%AD%A3%E7%BB%8F%E7%9A%84/HEXO/"/>
     
-    
-      <category term="技术文档" scheme="https://mthdm.cc/tags/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/"/>
     
       <category term="HEXO" scheme="https://mthdm.cc/tags/HEXO/"/>
     
@@ -165,7 +138,7 @@ sudo
     <link href="https://mthdm.cc/2018/08/15/6/"/>
     <id>https://mthdm.cc/2018/08/15/6/</id>
     <published>2018-08-15T03:30:59.000Z</published>
-    <updated>2019-10-13T07:00:44.371Z</updated>
+    <updated>2020-04-04T06:41:20.505Z</updated>
     
     <summary type="html">
     
@@ -180,14 +153,12 @@ sudo
     </summary>
     
     
-      <category term="树莓派&amp;香橙派" scheme="https://mthdm.cc/categories/%E6%A0%91%E8%8E%93%E6%B4%BE-%E9%A6%99%E6%A9%99%E6%B4%BE/"/>
+      <category term="正经的" scheme="https://mthdm.cc/categories/%E6%AD%A3%E7%BB%8F%E7%9A%84/"/>
     
-      <category term="技术文档" scheme="https://mthdm.cc/categories/%E6%A0%91%E8%8E%93%E6%B4%BE-%E9%A6%99%E6%A9%99%E6%B4%BE/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/"/>
+      <category term="树莓派&amp;香橙派" scheme="https://mthdm.cc/categories/%E6%AD%A3%E7%BB%8F%E7%9A%84/%E6%A0%91%E8%8E%93%E6%B4%BE-%E9%A6%99%E6%A9%99%E6%B4%BE/"/>
     
     
       <category term="树莓派&amp;香橙派" scheme="https://mthdm.cc/tags/%E6%A0%91%E8%8E%93%E6%B4%BE-%E9%A6%99%E6%A9%99%E6%B4%BE/"/>
-    
-      <category term="技术文档" scheme="https://mthdm.cc/tags/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/"/>
     
   </entry>
   
@@ -196,7 +167,7 @@ sudo
     <link href="https://mthdm.cc/2018/06/27/4/"/>
     <id>https://mthdm.cc/2018/06/27/4/</id>
     <published>2018-06-27T14:37:23.000Z</published>
-    <updated>2019-10-13T07:02:41.807Z</updated>
+    <updated>2020-04-04T06:42:16.692Z</updated>
     
     <summary type="html">
     
@@ -212,14 +183,12 @@ sudo
     </summary>
     
     
-      <category term="日常杂谈" scheme="https://mthdm.cc/categories/%E6%97%A5%E5%B8%B8%E6%9D%82%E8%B0%88/"/>
-    
-      <category term="战舰世界&amp;舰队收藏" scheme="https://mthdm.cc/categories/%E6%97%A5%E5%B8%B8%E6%9D%82%E8%B0%88/%E6%88%98%E8%88%B0%E4%B8%96%E7%95%8C-%E8%88%B0%E9%98%9F%E6%94%B6%E8%97%8F/"/>
+      <category term="日常的" scheme="https://mthdm.cc/categories/%E6%97%A5%E5%B8%B8%E7%9A%84/"/>
     
     
-      <category term="日常杂谈" scheme="https://mthdm.cc/tags/%E6%97%A5%E5%B8%B8%E6%9D%82%E8%B0%88/"/>
+      <category term="游戏相关" scheme="https://mthdm.cc/tags/%E6%B8%B8%E6%88%8F%E7%9B%B8%E5%85%B3/"/>
     
-      <category term="战舰世界&amp;舰队收藏" scheme="https://mthdm.cc/tags/%E6%88%98%E8%88%B0%E4%B8%96%E7%95%8C-%E8%88%B0%E9%98%9F%E6%94%B6%E8%97%8F/"/>
+      <category term="历史" scheme="https://mthdm.cc/tags/%E5%8E%86%E5%8F%B2/"/>
     
   </entry>
   
@@ -228,7 +197,7 @@ sudo
     <link href="https://mthdm.cc/2018/06/15/3/"/>
     <id>https://mthdm.cc/2018/06/15/3/</id>
     <published>2018-06-15T14:37:23.000Z</published>
-    <updated>2019-10-13T07:05:39.961Z</updated>
+    <updated>2020-04-04T06:42:40.506Z</updated>
     
     <summary type="html">
     
@@ -243,10 +212,8 @@ sudo
     </summary>
     
     
-      <category term="日常杂谈" scheme="https://mthdm.cc/categories/%E6%97%A5%E5%B8%B8%E6%9D%82%E8%B0%88/"/>
+      <category term="日常的" scheme="https://mthdm.cc/categories/%E6%97%A5%E5%B8%B8%E7%9A%84/"/>
     
-    
-      <category term="日常杂谈" scheme="https://mthdm.cc/tags/%E6%97%A5%E5%B8%B8%E6%9D%82%E8%B0%88/"/>
     
   </entry>
   
@@ -255,7 +222,7 @@ sudo
     <link href="https://mthdm.cc/2018/06/09/1/"/>
     <id>https://mthdm.cc/2018/06/09/1/</id>
     <published>2018-06-09T14:37:23.000Z</published>
-    <updated>2019-10-13T07:07:51.961Z</updated>
+    <updated>2020-04-04T06:43:15.288Z</updated>
     
     <summary type="html">
     
@@ -270,14 +237,12 @@ sudo
     </summary>
     
     
-      <category term="日常杂谈" scheme="https://mthdm.cc/categories/%E6%97%A5%E5%B8%B8%E6%9D%82%E8%B0%88/"/>
-    
-      <category term="战舰世界&amp;舰队收藏" scheme="https://mthdm.cc/categories/%E6%97%A5%E5%B8%B8%E6%9D%82%E8%B0%88/%E6%88%98%E8%88%B0%E4%B8%96%E7%95%8C-%E8%88%B0%E9%98%9F%E6%94%B6%E8%97%8F/"/>
+      <category term="日常的" scheme="https://mthdm.cc/categories/%E6%97%A5%E5%B8%B8%E7%9A%84/"/>
     
     
-      <category term="日常杂谈" scheme="https://mthdm.cc/tags/%E6%97%A5%E5%B8%B8%E6%9D%82%E8%B0%88/"/>
+      <category term="游戏相关" scheme="https://mthdm.cc/tags/%E6%B8%B8%E6%88%8F%E7%9B%B8%E5%85%B3/"/>
     
-      <category term="战舰世界&amp;舰队收藏" scheme="https://mthdm.cc/tags/%E6%88%98%E8%88%B0%E4%B8%96%E7%95%8C-%E8%88%B0%E9%98%9F%E6%94%B6%E8%97%8F/"/>
+      <category term="历史" scheme="https://mthdm.cc/tags/%E5%8E%86%E5%8F%B2/"/>
     
   </entry>
   
@@ -286,7 +251,7 @@ sudo
     <link href="https://mthdm.cc/2018/01/01/0HelloWord/"/>
     <id>https://mthdm.cc/2018/01/01/0HelloWord/</id>
     <published>2018-01-01T03:11:11.000Z</published>
-    <updated>2020-04-04T05:53:08.942Z</updated>
+    <updated>2020-04-04T06:43:44.221Z</updated>
     
     <summary type="html">
     
@@ -302,10 +267,10 @@ sudo
     </summary>
     
     
-      <category term="日常杂谈" scheme="https://mthdm.cc/categories/%E6%97%A5%E5%B8%B8%E6%9D%82%E8%B0%88/"/>
+      <category term="日常的" scheme="https://mthdm.cc/categories/%E6%97%A5%E5%B8%B8%E7%9A%84/"/>
     
     
-      <category term="日常杂谈" scheme="https://mthdm.cc/tags/%E6%97%A5%E5%B8%B8%E6%9D%82%E8%B0%88/"/>
+      <category term="示例" scheme="https://mthdm.cc/tags/%E7%A4%BA%E4%BE%8B/"/>
     
   </entry>
   
