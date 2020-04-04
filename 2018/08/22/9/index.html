@@ -14,18 +14,18 @@
 <meta property="og:site_name" content="Hexo">
 <meta property="og:description" content="最近我由于抛弃了wordpress的博客改用了hexo，虽然也是加了不少插件，但还是感觉少点什么，就在今天上午我突然想了起来—评论区！！　　我也在百毒上找了一些添加评论的教程，例如友言，网易云跟帖之类的，但大多不是停止服务需要备案就是设置过程太复杂，有的甚至没有QQ登录！！终于我找到了来必立，这个只需要修改一行代码，还可以使用QQ，微信，新浪，百度，人人网等账号登录，而且评论后台也做的非常好（">
 <meta property="og:locale" content="en_US">
-<meta property="og:image" content="http://yoursite.com/2018/08/22/9/9/9002.png">
-<meta property="og:image" content="http://yoursite.com/2018/08/22/9/9/9003.png">
-<meta property="og:image" content="http://yoursite.com/2018/08/22/9/9/9001.png">
-<meta property="og:image" content="http://yoursite.com/2018/08/22/9/9/9004.png">
-<meta property="og:image" content="http://yoursite.com/2018/08/22/9/9/9005.png">
+<meta property="og:image" content="http://yoursite.com/2018/08/22/9/9002.png">
+<meta property="og:image" content="http://yoursite.com/2018/08/22/9/9003.png">
+<meta property="og:image" content="http://yoursite.com/2018/08/22/9/9001.png">
+<meta property="og:image" content="http://yoursite.com/2018/08/22/9/9004.png">
+<meta property="og:image" content="http://yoursite.com/2018/08/22/9/9005.png">
 <meta property="article:published_time" content="2018-08-22T06:28:59.000Z">
 <meta property="article:modified_time" content="2019-10-13T06:56:09.852Z">
 <meta property="article:author" content="John Doe">
 <meta property="article:tag" content="技术文档">
 <meta property="article:tag" content="HEXO">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="http://yoursite.com/2018/08/22/9/9/9002.png">
+<meta name="twitter:image" content="http://yoursite.com/2018/08/22/9/9002.png">
   
     <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -100,16 +100,16 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>　　最近我由于抛弃了wordpress的博客改用了hexo，虽然也是加了不少插件，但还是感觉少点什么，就在今天上午我突然想了起来—评论区！！<br>　　我也在百毒上找了一些添加评论的教程，例如友言，网易云跟帖之类的，但大多不是停止服务需要备案就是设置过程太复杂，有的甚至没有QQ登录！！终于我找到了来必立，这个只需要修改一行代码，还可以使用QQ，微信，新浪，百度，人人网等账号登录，而且评论后台也做的非常好（真-站长推荐）。<br>　　首先打开来必立官网<a href="https://livere.com/" target="_blank" rel="noopener">https://livere.com/</a><br>　　点击右上角的小人来注册一个账号（需要使用邮箱验证）<br>　　注册好后点击安装（没错就是安装）<br><img src="9/9002.png" alt="安装"><br>复制下图红色括号以内的内容<br><img src="9/9003.png" alt="id"><br>将其粘贴到next的配置文件中(_config.yml)如下图所示<br><img src="9/9001.png" alt="配置代码"><br>如果看不清就看下面的代码行（第７行）</p>
+        <p>　　最近我由于抛弃了wordpress的博客改用了hexo，虽然也是加了不少插件，但还是感觉少点什么，就在今天上午我突然想了起来—评论区！！<br>　　我也在百毒上找了一些添加评论的教程，例如友言，网易云跟帖之类的，但大多不是停止服务需要备案就是设置过程太复杂，有的甚至没有QQ登录！！终于我找到了来必立，这个只需要修改一行代码，还可以使用QQ，微信，新浪，百度，人人网等账号登录，而且评论后台也做的非常好（真-站长推荐）。<br>　　首先打开来必立官网<a href="https://livere.com/" target="_blank" rel="noopener">https://livere.com/</a><br>　　点击右上角的小人来注册一个账号（需要使用邮箱验证）<br>　　注册好后点击安装（没错就是安装）<br><img src="/2018/08/22/9/9002.png" alt="安装"><br>复制下图红色括号以内的内容<br><img src="/2018/08/22/9/9003.png" alt="id"><br>将其粘贴到next的配置文件中(_config.yml)如下图所示<br><img src="/2018/08/22/9/9001.png" alt="配置代码"><br>如果看不清就看下面的代码行（第７行）</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"># Support for youyan comments system.</span><br><span class="line"># You can get your uid from http:&#x2F;&#x2F;www.uyan.cc</span><br><span class="line">#youyan_uid: your uid</span><br><span class="line"></span><br><span class="line"># Support for LiveRe comments system.</span><br><span class="line"># You can get your uid from https:&#x2F;&#x2F;livere.com&#x2F;insight&#x2F;myCode (General web site)</span><br><span class="line">livere_uid: MTAyMC8zOTEyNi8xNTY1Mw</span><br><span class="line"></span><br><span class="line"># Gitment</span><br><span class="line"># Introduction: https:&#x2F;&#x2F;imsun.net&#x2F;posts&#x2F;gitment-introduction&#x2F;</span><br><span class="line"># You can get your Github ID from https:&#x2F;&#x2F;api.github.com&#x2F;users&#x2F;&lt;Github username&gt;</span><br></pre></td></tr></table></figure>
-<p>记得要吧livere前面的#去掉，还有就是冒号后面有一个空格（我就忘输了一次）<br>　　然后保存退出，重新部署看看是不是文章下多了评论框（づ￣3￣）づ╭❤～<br><img src="9/9004.png" alt="评论框"><br>　　另外一个我非常推荐这玩意的原因就是这个后台非常好用，可以统计评论信息-具体看图<br><img src="9/9005.png" alt="后台"><br>　　如果还有什么地方不明白可以Q我哦ヾ(๑╹◡╹)ﾉ”<br>　　不过这次我非常推荐直接在评论区留言，在评论区留言，在评论区留言，重要的事情说三遍！！！</p>
+<p>记得要吧livere前面的#去掉，还有就是冒号后面有一个空格（我就忘输了一次）<br>　　然后保存退出，重新部署看看是不是文章下多了评论框（づ￣3￣）づ╭❤～<br><img src="/2018/08/22/9/9004.png" alt="评论框"><br>　　另外一个我非常推荐这玩意的原因就是这个后台非常好用，可以统计评论信息-具体看图<br><img src="/2018/08/22/9/9005.png" alt="后台"><br>　　如果还有什么地方不明白可以Q我哦ヾ(๑╹◡╹)ﾉ”<br>　　不过这次我非常推荐直接在评论区留言，在评论区留言，在评论区留言，重要的事情说三遍！！！</p>
 <p>　　还有最后一件要说的事…..我26号就开学了，以后更新频率肯定会下降ヽ(`Д´)ﾉ<br>　　微笑面对高中.psd</p>
 <hr>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/08/22/9/" data-id="ck8l4z8j8001g90u20hn89ke9" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2018/08/22/9/" data-id="ck8l5dfs5001gkgu20w2ua92v" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/HEXO/" rel="tag">HEXO</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/" rel="tag">技术文档</a></li></ul>
