@@ -40,61 +40,6 @@
   </entry>
   
   <entry>
-    <title>2019年度总结</title>
-    <link href="https://mthdm.cc/2020/01/01/18/"/>
-    <id>https://mthdm.cc/2020/01/01/18/</id>
-    <published>2020-01-01T04:38:07.000Z</published>
-    <updated>2020-01-01T15:47:56.596Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;　　这次就是一时兴起，写了这篇年度总结，正好博客也好久没有更新文章了，我完全是想到什么就写什么，别的文章我多少还会上网搜一下别人怎么写，但是这篇没有，这里完全是我内心的想法，既然你已经点进来了，那么就请认认真真的看一下吧。&lt;br&gt;　　还是要说，时间过得真快啊之类的话，今天是
-        
-      
-    
-    </summary>
-    
-    
-      <category term="日常杂谈" scheme="https://mthdm.cc/categories/%E6%97%A5%E5%B8%B8%E6%9D%82%E8%B0%88/"/>
-    
-    
-      <category term="日常杂谈" scheme="https://mthdm.cc/tags/%E6%97%A5%E5%B8%B8%E6%9D%82%E8%B0%88/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>关于人工智能夕立</title>
-    <link href="https://mthdm.cc/2019/11/17/17/"/>
-    <id>https://mthdm.cc/2019/11/17/17/</id>
-    <published>2019-11-16T16:17:10.000Z</published>
-    <updated>2020-01-01T12:28:11.652Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h2 id=&quot;这是一篇迟来的总结&quot;&gt;&lt;a href=&quot;#这是一篇迟来的总结&quot; class=&quot;headerlink&quot; title=&quot;这是一篇迟来的总结&quot;&gt;&lt;/a&gt;这是一篇迟来的总结&lt;/h2&gt;&lt;p&gt;最后更新 2020.01.01 18:55&lt;/p&gt;
-&lt;p&gt;&lt;img
-        
-      
-    
-    </summary>
-    
-    
-      <category term="日常杂谈" scheme="https://mthdm.cc/categories/%E6%97%A5%E5%B8%B8%E6%9D%82%E8%B0%88/"/>
-    
-    
-      <category term="日常杂谈" scheme="https://mthdm.cc/tags/%E6%97%A5%E5%B8%B8%E6%9D%82%E8%B0%88/"/>
-    
-  </entry>
-  
-  <entry>
     <title>使用Nginx反向代理访问Pixiv</title>
     <link href="https://mthdm.cc/2019/11/09/16/"/>
     <id>https://mthdm.cc/2019/11/09/16/</id>
@@ -118,34 +63,6 @@
     
     
       <category term="技术文档" scheme="https://mthdm.cc/tags/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>新主题，全新的开始</title>
-    <link href="https://mthdm.cc/2019/10/13/15/"/>
-    <id>https://mthdm.cc/2019/10/13/15/</id>
-    <published>2019-10-13T07:22:11.000Z</published>
-    <updated>2019-10-13T07:47:31.327Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;　　今天把咕了好几个月的hexo博客好好整理了一下，更换了全新的主题，至少从不到12点折腾到这篇文章发布的时间，由于时间紧迫，并且我还没有开始写作业，所以我要在这里说明一些事情&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;alert(&amp;#39;瞧瞧我!&amp;#39;);&lt;/code&gt;&lt;/pr
-        
-      
-    
-    </summary>
-    
-    
-      <category term="日常杂谈" scheme="https://mthdm.cc/categories/%E6%97%A5%E5%B8%B8%E6%9D%82%E8%B0%88/"/>
-    
-    
-      <category term="日常杂谈" scheme="https://mthdm.cc/tags/%E6%97%A5%E5%B8%B8%E6%9D%82%E8%B0%88/"/>
     
   </entry>
   
@@ -176,9 +93,9 @@ sudo
       <category term="技术文档" scheme="https://mthdm.cc/categories/%E6%A0%91%E8%8E%93%E6%B4%BE-%E9%A6%99%E6%A9%99%E6%B4%BE/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/"/>
     
     
-      <category term="技术文档" scheme="https://mthdm.cc/tags/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/"/>
-    
       <category term="树莓派&amp;香橙派" scheme="https://mthdm.cc/tags/%E6%A0%91%E8%8E%93%E6%B4%BE-%E9%A6%99%E6%A9%99%E6%B4%BE/"/>
+    
+      <category term="技术文档" scheme="https://mthdm.cc/tags/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/"/>
     
   </entry>
   
@@ -187,7 +104,7 @@ sudo
     <link href="https://mthdm.cc/2018/12/09/133/"/>
     <id>https://mthdm.cc/2018/12/09/133/</id>
     <published>2018-12-09T03:11:11.000Z</published>
-    <updated>2019-10-13T08:18:05.997Z</updated>
+    <updated>2020-04-04T06:36:00.062Z</updated>
     
     <summary type="html">
     
@@ -196,7 +113,7 @@ sudo
         
         
           &lt;p&gt;最后编辑：2019/7/21 18:15&lt;/p&gt;
-&lt;p&gt;欢迎加入站长水群【智能实验室】：&lt;a href=&quot;https://jq.qq.com/?_wv=1027&amp;amp;k=5nH3SSd&quot; target=&quot;_blank&quot;
+&lt;p&gt;&lt;font color=&quot;#0099ff&quot; size=&quot;5&quot; face=&quot;黑体&quot;&gt;已更换新说明书 &lt;a href=&quot;https://em7ew3.coding-pages.com/&quot; target=&quot;_blank&quot;
         
       
     
@@ -209,66 +126,6 @@ sudo
       <category term="日常杂谈" scheme="https://mthdm.cc/tags/%E6%97%A5%E5%B8%B8%E6%9D%82%E8%B0%88/"/>
     
       <category term="技术文档" scheme="https://mthdm.cc/tags/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>人工智能夕立更新记录[持续更新]</title>
-    <link href="https://mthdm.cc/2018/11/27/12/"/>
-    <id>https://mthdm.cc/2018/11/27/12/</id>
-    <published>2018-11-27T03:11:12.000Z</published>
-    <updated>2019-06-11T12:22:04.746Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;　　6月11日更新&lt;br&gt;　　更换服务器&lt;br&gt;　　新增功能百度百科&lt;br&gt;　　新增功能二维码生成&lt;br&gt;　　优化功能识别番剧截图&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;　　3月16号更新&lt;br&gt;　　更新了部分插件，修复了部分BUG&lt;br&gt;　　新增测试功能：随机老公&lt;/p&gt;
-&lt;hr&gt;
-&lt;
-        
-      
-    
-    </summary>
-    
-    
-      <category term="技术文档" scheme="https://mthdm.cc/categories/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/"/>
-    
-    
-      <category term="日常杂谈" scheme="https://mthdm.cc/tags/%E6%97%A5%E5%B8%B8%E6%9D%82%E8%B0%88/"/>
-    
-      <category term="技术文档" scheme="https://mthdm.cc/tags/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>历史上的今天-重大事件</title>
-    <link href="https://mthdm.cc/2018/10/02/10/"/>
-    <id>https://mthdm.cc/2018/10/02/10/</id>
-    <published>2018-10-02T04:32:11.000Z</published>
-    <updated>2018-10-02T03:27:09.169Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;605年10月2日(隋炀帝大业元年秋八月壬寅)——隋炀帝坐龙船到江都。船队连绵二百余里，共用挽船士八万余人。&lt;br&gt;1187年10月2日——萨拉丁率领的阿拉伯联军收复耶路撒冷，被十字军侵占达88年之久的圣城重又回到穆斯林手中。&lt;br&gt;1263年10月2日——苏格兰抗英战争：
-        
-      
-    
-    </summary>
-    
-    
-      <category term="日常杂谈" scheme="https://mthdm.cc/categories/%E6%97%A5%E5%B8%B8%E6%9D%82%E8%B0%88/"/>
-    
-    
-      <category term="日常杂谈" scheme="https://mthdm.cc/tags/%E6%97%A5%E5%B8%B8%E6%9D%82%E8%B0%88/"/>
     
   </entry>
   
@@ -304,60 +161,6 @@ sudo
   </entry>
   
   <entry>
-    <title>科普向-为什么橡皮会粘住尺子</title>
-    <link href="https://mthdm.cc/2018/08/16/8/"/>
-    <id>https://mthdm.cc/2018/08/16/8/</id>
-    <published>2018-08-16T09:44:27.000Z</published>
-    <updated>2018-08-22T14:31:00.339Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;　　中考之后一直把考试用的文具放在一个透明袋子里(就是考完之后就放在家里不管了)然后今天我一看发现橡皮和尺子粘在了一起…..&lt;br&gt;&lt;img src=&quot;/2018/08/16/8/101.png&quot; alt=&quot;图&quot;&gt;&lt;br&gt;&lt;img
-        
-      
-    
-    </summary>
-    
-    
-      <category term="日常杂谈" scheme="https://mthdm.cc/categories/%E6%97%A5%E5%B8%B8%E6%9D%82%E8%B0%88/"/>
-    
-    
-      <category term="日常杂谈" scheme="https://mthdm.cc/tags/%E6%97%A5%E5%B8%B8%E6%9D%82%E8%B0%88/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>这个动作躲车骚气</title>
-    <link href="https://mthdm.cc/2018/08/15/7/"/>
-    <id>https://mthdm.cc/2018/08/15/7/</id>
-    <published>2018-08-15T13:30:27.000Z</published>
-    <updated>2018-08-22T14:30:50.826Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;　　刚才有一个叫对杰的人给我发来一张动图，哎呀我一看太牛了，这个逼装的是前无古人后无来者，实乃逼界之豪杰，再配上这骚气的动作，把这卡车司机吓得……算了，不多说了直接看图！&lt;br&gt;&lt;img src=&quot;/2018/08/15/7/0012.gif&quot;
-        
-      
-    
-    </summary>
-    
-    
-      <category term="日常杂谈" scheme="https://mthdm.cc/categories/%E6%97%A5%E5%B8%B8%E6%9D%82%E8%B0%88/"/>
-    
-    
-      <category term="日常杂谈" scheme="https://mthdm.cc/tags/%E6%97%A5%E5%B8%B8%E6%9D%82%E8%B0%88/"/>
-    
-  </entry>
-  
-  <entry>
     <title>树莓派使用xrdp连接远程桌面</title>
     <link href="https://mthdm.cc/2018/08/15/6/"/>
     <id>https://mthdm.cc/2018/08/15/6/</id>
@@ -382,43 +185,9 @@ sudo
       <category term="技术文档" scheme="https://mthdm.cc/categories/%E6%A0%91%E8%8E%93%E6%B4%BE-%E9%A6%99%E6%A9%99%E6%B4%BE/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/"/>
     
     
-      <category term="技术文档" scheme="https://mthdm.cc/tags/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/"/>
-    
       <category term="树莓派&amp;香橙派" scheme="https://mthdm.cc/tags/%E6%A0%91%E8%8E%93%E6%B4%BE-%E9%A6%99%E6%A9%99%E6%B4%BE/"/>
     
-  </entry>
-  
-  <entry>
-    <title>Pi编译安装PHPNginx并安装完整LEMP环境</title>
-    <link href="https://mthdm.cc/2018/07/27/5/"/>
-    <id>https://mthdm.cc/2018/07/27/5/</id>
-    <published>2018-07-27T15:15:23.000Z</published>
-    <updated>2018-08-22T14:30:27.635Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;　　1.安装 Nginx+Php+Mysql&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;#添加Nginx、Php最新源并刷新源
-sudo add-apt-repository ppa:nginx&amp;#x2F;stable
-sudo add-apt-repository
-        
-      
-    
-    </summary>
-    
-    
-      <category term="技术文档" scheme="https://mthdm.cc/categories/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/"/>
-    
-      <category term="树莓派&amp;香橙派" scheme="https://mthdm.cc/categories/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/%E6%A0%91%E8%8E%93%E6%B4%BE-%E9%A6%99%E6%A9%99%E6%B4%BE/"/>
-    
-    
       <category term="技术文档" scheme="https://mthdm.cc/tags/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/"/>
-    
-      <category term="树莓派&amp;香橙派" scheme="https://mthdm.cc/tags/%E6%A0%91%E8%8E%93%E6%B4%BE-%E9%A6%99%E6%A9%99%E6%B4%BE/"/>
     
   </entry>
   
@@ -478,35 +247,6 @@ sudo add-apt-repository
     
     
       <category term="日常杂谈" scheme="https://mthdm.cc/tags/%E6%97%A5%E5%B8%B8%E6%9D%82%E8%B0%88/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>入香橙派这个大坑</title>
-    <link href="https://mthdm.cc/2018/06/10/2/"/>
-    <id>https://mthdm.cc/2018/06/10/2/</id>
-    <published>2018-06-10T04:13:14.000Z</published>
-    <updated>2019-05-01T01:02:24.048Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;　　我当初就是看上这小板子便宜，性能还行才买的，但现在这后期投入真是巨大&lt;br&gt;orangepi pc 105rmb&lt;br&gt;zero 73rmb&lt;br&gt;透明外壳 约25rmb&lt;br&gt;散热片 总25rmb左右&lt;br&gt;2.3A充电器x2 60rmb&lt;br&gt;供电线
-        
-      
-    
-    </summary>
-    
-    
-      <category term="日常杂谈" scheme="https://mthdm.cc/categories/%E6%97%A5%E5%B8%B8%E6%9D%82%E8%B0%88/"/>
-    
-    
-      <category term="日常杂谈" scheme="https://mthdm.cc/tags/%E6%97%A5%E5%B8%B8%E6%9D%82%E8%B0%88/"/>
-    
-      <category term="香橙派" scheme="https://mthdm.cc/tags/%E9%A6%99%E6%A9%99%E6%B4%BE/"/>
     
   </entry>
   
