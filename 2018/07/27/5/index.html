@@ -1,255 +1,140 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><meta name="author" content="John Doe"><title>Pi编译安装PHPNginx并安装完整LEMP环境 · Hexo</title><meta name="description" content="1.安装 Nginx+Php+Mysql
+#添加Nginx、Php最新源并刷新源
+sudo add-apt-repository ppa:nginx&amp;#x2F;stable
+sudo add-apt-repository ppa:ondrej&amp;#x2F;php
+sudo apt-get update"><meta name="keywords" content=""><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="renderer" content="webkit"><link rel="short icon" href="/images/favicon.png" type="image/x-icon"><link rel="stylesheet" href="/css/bootstrap.min.css"><link rel="stylesheet" href="/css/font-awesome.min.css"><link rel="stylesheet" href="/css/style.css"><link rel="alternate" type="application/atom+xml" title="ATOM 1.0" href="/atom.xml"><meta name="generator" content="Hexo 4.2.0"><link rel="stylesheet" href="/css/prism.css" type="text/css">
+<link rel="stylesheet" href="/css/prism-line-numbers.css" type="text/css"></head><body><div id="stage" class="container"><div class="row"><div id="side-bar" class="col-sm-3 col-xs-12 side-container invisible"><div class="vertical-text site-title"><h3 tabindex="-1" class="site-title-small"><a href="/" class="a-title">Typography</a></h3><h1 tabindex="-1" class="site-title-large"><a href="/" class="a-title">活版印字</a></h1><!--h6(onclick="triggerSiteNav()") Trigger--></div><br class="visible-lg visible-md visible-sm"><div id="site-nav" class="site-title-links"><ul><li><a href="/">Home</a></li><li><a href="/archives">Archive</a></li><li><a href="/categories">Categories</a></li><li><a href="/tags">Tags</a></li><li class="soc"><a href="http://yoursite.com/atom.xml" target="_blank" rel="noopener noreferrer"><i class="fa fa-rss">&nbsp;</i></a></li></ul><div class="visible-lg visible-md visible-sm site-nav-footer"><br class="site-nav-footer-br"><footer><p>&copy;&nbsp;2020&nbsp;<a target="_blank" href="http://yoursite.com" rel="noopener noreferrer">John Doe</a></p><p>Theme&nbsp;<a target="_blank" href="https://github.com/SumiMakito/hexo-theme-typography" rel="noopener noreferrer">Typography</a>&nbsp;by&nbsp;<a target="_blank" href="https://www.keep.moe" rel="noopener noreferrer">Makito</a></p><p>Proudly published with&nbsp;<a target="_blank" href="https://hexo.io" rel="noopener noreferrer">Hexo</a></p></footer></div></div></div><div id="main-container" class="col-sm-9 col-xs-12 main-container invisible"><div class="autopagerize_page_element"><div class="content"><div class="post-page"><div class="post-container"><p class="post-title"><a>Pi编译安装PHPNginx并安装完整LEMP环境</a></p><p class="post-meta"><span class="date meta-item">Posted at&nbsp;2018-07-27</span><span class="meta-item"><i class="fa fa-folder"></i><span>&nbsp;</span><a href="/categories/技术文档/" title="技术文档" class="a-tag">技术文档</a><span>&nbsp;</span><a href="/categories/技术文档/树莓派-香橙派/" title="树莓派&amp;香橙派" class="a-tag">树莓派&amp;香橙派</a><span>&nbsp;</span></span><span class="meta-item"><i class="fa fa-tag"></i><span>&nbsp;</span><a href="/tags/技术文档/" title="技术文档" class="a-tag">技术文档</a><span>&nbsp;</span><a href="/tags/树莓派-香橙派/" title="树莓派&amp;香橙派" class="a-tag">树莓派&amp;香橙派</a><span>&nbsp;</span></span></p><p class="post-abstract"><p>　　1.安装 Nginx+Php+Mysql</p>
+<pre><code>#添加Nginx、Php最新源并刷新源
+sudo add-apt-repository ppa:nginx&#x2F;stable
+sudo add-apt-repository ppa:ondrej&#x2F;php
+sudo apt-get update
 
-  
-  <title>Pi编译安装PHPNginx并安装完整LEMP环境 | Hexo</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="1.安装 Nginx+Php+Mysql 123456789101112131415161718192021#添加Nginx、Php最新源并刷新源sudo add-apt-repository ppa:nginx&#x2F;stablesudo add-apt-repository ppa:ondrej&#x2F;phpsudo apt-get update#安装Nginxsudo apt-g">
-<meta property="og:type" content="article">
-<meta property="og:title" content="Pi编译安装PHPNginx并安装完整LEMP环境">
-<meta property="og:url" content="http://yoursite.com/2018/07/27/5/index.html">
-<meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="1.安装 Nginx+Php+Mysql 123456789101112131415161718192021#添加Nginx、Php最新源并刷新源sudo add-apt-repository ppa:nginx&#x2F;stablesudo add-apt-repository ppa:ondrej&#x2F;phpsudo apt-get update#安装Nginxsudo apt-g">
-<meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2018-07-27T15:15:23.000Z">
-<meta property="article:modified_time" content="2018-08-22T14:30:27.635Z">
-<meta property="article:author" content="John Doe">
-<meta property="article:tag" content="技术文档">
-<meta property="article:tag" content="树莓派&amp;香橙派">
-<meta name="twitter:card" content="summary">
-  
-    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
-  
-  
-    <link rel="icon" href="/favicon.png">
-  
-  
-    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
-  
-  
-<link rel="stylesheet" href="/css/style.css">
+#安装Nginx
+sudo apt-get install nginx
 
-<meta name="generator" content="Hexo 4.2.0"></head>
+#安装Php7.1 FPM
+sudo apt-get install php7.1-fpm
+#php7.1 curl扩展
+sudo apt-get install php7.1-curl
 
-<body>
-  <div id="container">
-    <div id="wrap">
-      <header id="header">
-  <div id="banner"></div>
-  <div id="header-outer" class="outer">
-    <div id="header-title" class="inner">
-      <h1 id="logo-wrap">
-        <a href="/" id="logo">Hexo</a>
-      </h1>
-      
-    </div>
-    <div id="header-inner" class="inner">
-      <nav id="main-nav">
-        <a id="main-nav-toggle" class="nav-icon"></a>
-        
-          <a class="main-nav-link" href="/">Home</a>
-        
-          <a class="main-nav-link" href="/archives">Archives</a>
-        
-      </nav>
-      <nav id="sub-nav">
-        
-          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
-        
-        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
-      </nav>
-      <div id="search-form-wrap">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
-      </div>
-    </div>
-  </div>
-</header>
-      <div class="outer">
-        <section id="main"><article id="post-5" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2018/07/27/5/" class="article-date">
-  <time datetime="2018-07-27T15:15:23.000Z" itemprop="datePublished">2018-07-27</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/">技术文档</a>►<a class="article-category-link" href="/categories/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/%E6%A0%91%E8%8E%93%E6%B4%BE-%E9%A6%99%E6%A9%99%E6%B4%BE/">树莓派&香橙派</a>
-  </div>
-
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 class="article-title" itemprop="name">
-      Pi编译安装PHPNginx并安装完整LEMP环境
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>　　1.安装 Nginx+Php+Mysql</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line">#添加Nginx、Php最新源并刷新源</span><br><span class="line">sudo add-apt-repository ppa:nginx&#x2F;stable</span><br><span class="line">sudo add-apt-repository ppa:ondrej&#x2F;php</span><br><span class="line">sudo apt-get update</span><br><span class="line"></span><br><span class="line">#安装Nginx</span><br><span class="line">sudo apt-get install nginx</span><br><span class="line"></span><br><span class="line">#安装Php7.1 FPM</span><br><span class="line">sudo apt-get install php7.1-fpm</span><br><span class="line">#php7.1 curl扩展</span><br><span class="line">sudo apt-get install php7.1-curl</span><br><span class="line"></span><br><span class="line">#安装Mysql</span><br><span class="line">sudo install mysql-server</span><br><span class="line">#备份Mysql数据库</span><br><span class="line">mysqldump -u root -p 欲备份的数据库名 &gt; 导出的数据库名.sql</span><br><span class="line">#恢复mysql数据库</span><br><span class="line">mysql -u root -p 恢复的数据库名 &lt; 导出过的数据库名.sql</span><br><span class="line">＃如恢复的数据库不存在 需要手动创建</span><br><span class="line">create database 恢复的数据库名;</span><br></pre></td></tr></table></figure>
+#安装Mysql
+sudo install mysql-server
+#备份Mysql数据库
+mysqldump -u root -p 欲备份的数据库名 &gt; 导出的数据库名.sql
+#恢复mysql数据库
+mysql -u root -p 恢复的数据库名 &lt; 导出过的数据库名.sql
+＃如恢复的数据库不存在 需要手动创建
+create database 恢复的数据库名;</code></pre>
 <p>2.编译安装Nginx/1.11.4升级HTTP/2.0</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br></pre></td><td class="code"><pre><span class="line">#下载并解压Nginx源码</span><br><span class="line">wget -c https:&#x2F;&#x2F;nginx.org&#x2F;download&#x2F;nginx-1.11.4.tar.gz</span><br><span class="line">tar -zxvf nginx-1.11.4.tar.gz</span><br><span class="line"></span><br><span class="line">#下载并解压OpenSSL源码</span><br><span class="line">wget -c https:&#x2F;&#x2F;www.openssl.org&#x2F;source&#x2F;openssl-1.1.0.tar.gz</span><br><span class="line">tar -zxvf openssl-1.1.0.tar.gz</span><br><span class="line"></span><br><span class="line">#下载并解压nginx-ct源码</span><br><span class="line">wget -O nginx-ct.zip -c https:&#x2F;&#x2F;github.com&#x2F;grahamedgecombe&#x2F;nginx-ct&#x2F;archive&#x2F;v1.3.0.zip</span><br><span class="line">unzip nginx-ct.zip</span><br><span class="line"></span><br><span class="line">#修复Nginx&#x2F;1.11.3无法编译的问题&lt;font style&#x3D;&quot;color:red&quot;&gt;此问题在Nginx 1.11.4已经解决,1.11.4请忽略&lt;&#x2F;font&gt;</span><br><span class="line">#由于OpenSSL 1.1.0 删除了 SSL_R_NO_CIPHERS_PASSED导致Nginx无法编译。这里我们需要修复nginx源码中的[一个文件](https:&#x2F;&#x2F;github.com&#x2F;nginx&#x2F;nginx&#x2F;commit&#x2F;af9e72533a69de3b8b7ed59be7be9b37203b5c82)</span><br><span class="line"></span><br><span class="line">#用文本编辑器打开 .&#x2F;nginx-1.11.3&#x2F;src&#x2F;event&#x2F;ngx_event_openssl.c</span><br><span class="line">#找到这个位置,大约在第2000行附近</span><br><span class="line">if (n &#x3D;&#x3D; SSL_R_BAD_CHANGE_CIPHER_SPEC                        &#x2F;*  103 *&#x2F;</span><br><span class="line">         || n &#x3D;&#x3D; SSL_R_BLOCK_CIPHER_PAD_IS_WRONG                  &#x2F;*  129 *&#x2F;</span><br><span class="line">         || n &#x3D;&#x3D; SSL_R_DIGEST_CHECK_FAILED                        &#x2F;*  149 *&#x2F;</span><br><span class="line">         || n &#x3D;&#x3D; SSL_R_ERROR_IN_RECEIVED_CIPHER_LIST              &#x2F;*  151 *&#x2F;</span><br><span class="line">         || n &#x3D;&#x3D; SSL_R_EXCESSIVE_MESSAGE_SIZE                     &#x2F;*  152 *&#x2F;</span><br><span class="line">         || n &#x3D;&#x3D; SSL_R_LENGTH_MISMATCH                            &#x2F;*  159 *&#x2F;</span><br><span class="line">         || n &#x3D;&#x3D; SSL_R_NO_CIPHERS_PASSED                          &#x2F;*  182 *&#x2F;</span><br><span class="line">         </span><br><span class="line">修改为</span><br><span class="line"></span><br><span class="line">if (n &#x3D;&#x3D; SSL_R_BAD_CHANGE_CIPHER_SPEC                        &#x2F;*  103 *&#x2F;</span><br><span class="line">         || n &#x3D;&#x3D; SSL_R_BLOCK_CIPHER_PAD_IS_WRONG                  &#x2F;*  129 *&#x2F;</span><br><span class="line">         || n &#x3D;&#x3D; SSL_R_DIGEST_CHECK_FAILED                        &#x2F;*  149 *&#x2F;</span><br><span class="line">         || n &#x3D;&#x3D; SSL_R_ERROR_IN_RECEIVED_CIPHER_LIST              &#x2F;*  151 *&#x2F;</span><br><span class="line">         || n &#x3D;&#x3D; SSL_R_EXCESSIVE_MESSAGE_SIZE                     &#x2F;*  152 *&#x2F;</span><br><span class="line">         || n &#x3D;&#x3D; SSL_R_LENGTH_MISMATCH                            &#x2F;*  159 *&#x2F;</span><br><span class="line">#ifdef SSL_R_NO_CIPHERS_PASSED</span><br><span class="line">         || n &#x3D;&#x3D; SSL_R_NO_CIPHERS_PASSED                          &#x2F;*  182 *&#x2F;</span><br><span class="line">#endif</span><br><span class="line"></span><br><span class="line">#保存</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">#编译Nginx</span><br><span class="line"></span><br><span class="line">#进入Nginx源码目录</span><br><span class="line">cd .&#x2F;nginx-1.11.4</span><br><span class="line"></span><br><span class="line">#生成编译配置</span><br><span class="line">.&#x2F;configure \</span><br><span class="line">#设置OpenSSL源码目录</span><br><span class="line">--with-openssl&#x3D;..&#x2F;openssl-1.1.0 \</span><br><span class="line">#设置nginx-ct源码目录</span><br><span class="line">--add-module&#x3D;..&#x2F;nginx-ct-1.3.0 \</span><br><span class="line">--with-debug \</span><br><span class="line">--with-pcre-jit \</span><br><span class="line">--with-ipv6 \</span><br><span class="line">--with-http_ssl_module \</span><br><span class="line">#启用HTTP&#x2F;2.0模块</span><br><span class="line">--with-http_v2_module \</span><br><span class="line">--with-http_stub_status_module \</span><br><span class="line">--with-http_realip_module \</span><br><span class="line">--with-http_auth_request_module \</span><br><span class="line">--with-http_addition_module \</span><br><span class="line">--with-http_dav_module \</span><br><span class="line">--with-http_gzip_static_module \</span><br><span class="line">--with-http_sub_module \</span><br><span class="line">--with-mail \</span><br><span class="line">--with-mail_ssl_module</span><br><span class="line">#如无缺失依赖库,将会生成MakeFile</span><br><span class="line"></span><br><span class="line">#开始编译</span><br><span class="line">make</span><br><span class="line">#编译完成后安装</span><br><span class="line">sudo make install</span><br><span class="line">#默认安装在 &#x2F;usr&#x2F;local&#x2F;nginx 下</span><br><span class="line"></span><br><span class="line">#install Nginx End.</span><br></pre></td></tr></table></figure>
+<pre><code>#下载并解压Nginx源码
+wget -c https:&#x2F;&#x2F;nginx.org&#x2F;download&#x2F;nginx-1.11.4.tar.gz
+tar -zxvf nginx-1.11.4.tar.gz
+
+#下载并解压OpenSSL源码
+wget -c https:&#x2F;&#x2F;www.openssl.org&#x2F;source&#x2F;openssl-1.1.0.tar.gz
+tar -zxvf openssl-1.1.0.tar.gz
+
+#下载并解压nginx-ct源码
+wget -O nginx-ct.zip -c https:&#x2F;&#x2F;github.com&#x2F;grahamedgecombe&#x2F;nginx-ct&#x2F;archive&#x2F;v1.3.0.zip
+unzip nginx-ct.zip
+
+#修复Nginx&#x2F;1.11.3无法编译的问题&lt;font style&#x3D;&quot;color:red&quot;&gt;此问题在Nginx 1.11.4已经解决,1.11.4请忽略&lt;&#x2F;font&gt;
+#由于OpenSSL 1.1.0 删除了 SSL_R_NO_CIPHERS_PASSED导致Nginx无法编译。这里我们需要修复nginx源码中的[一个文件](https:&#x2F;&#x2F;github.com&#x2F;nginx&#x2F;nginx&#x2F;commit&#x2F;af9e72533a69de3b8b7ed59be7be9b37203b5c82)
+
+#用文本编辑器打开 .&#x2F;nginx-1.11.3&#x2F;src&#x2F;event&#x2F;ngx_event_openssl.c
+#找到这个位置,大约在第2000行附近
+if (n &#x3D;&#x3D; SSL_R_BAD_CHANGE_CIPHER_SPEC                        &#x2F;*  103 *&#x2F;
+         || n &#x3D;&#x3D; SSL_R_BLOCK_CIPHER_PAD_IS_WRONG                  &#x2F;*  129 *&#x2F;
+         || n &#x3D;&#x3D; SSL_R_DIGEST_CHECK_FAILED                        &#x2F;*  149 *&#x2F;
+         || n &#x3D;&#x3D; SSL_R_ERROR_IN_RECEIVED_CIPHER_LIST              &#x2F;*  151 *&#x2F;
+         || n &#x3D;&#x3D; SSL_R_EXCESSIVE_MESSAGE_SIZE                     &#x2F;*  152 *&#x2F;
+         || n &#x3D;&#x3D; SSL_R_LENGTH_MISMATCH                            &#x2F;*  159 *&#x2F;
+         || n &#x3D;&#x3D; SSL_R_NO_CIPHERS_PASSED                          &#x2F;*  182 *&#x2F;
+         
+修改为
+
+if (n &#x3D;&#x3D; SSL_R_BAD_CHANGE_CIPHER_SPEC                        &#x2F;*  103 *&#x2F;
+         || n &#x3D;&#x3D; SSL_R_BLOCK_CIPHER_PAD_IS_WRONG                  &#x2F;*  129 *&#x2F;
+         || n &#x3D;&#x3D; SSL_R_DIGEST_CHECK_FAILED                        &#x2F;*  149 *&#x2F;
+         || n &#x3D;&#x3D; SSL_R_ERROR_IN_RECEIVED_CIPHER_LIST              &#x2F;*  151 *&#x2F;
+         || n &#x3D;&#x3D; SSL_R_EXCESSIVE_MESSAGE_SIZE                     &#x2F;*  152 *&#x2F;
+         || n &#x3D;&#x3D; SSL_R_LENGTH_MISMATCH                            &#x2F;*  159 *&#x2F;
+#ifdef SSL_R_NO_CIPHERS_PASSED
+         || n &#x3D;&#x3D; SSL_R_NO_CIPHERS_PASSED                          &#x2F;*  182 *&#x2F;
+#endif
+
+#保存
+
+
+#编译Nginx
+
+#进入Nginx源码目录
+cd .&#x2F;nginx-1.11.4
+
+#生成编译配置
+.&#x2F;configure \
+#设置OpenSSL源码目录
+--with-openssl&#x3D;..&#x2F;openssl-1.1.0 \
+#设置nginx-ct源码目录
+--add-module&#x3D;..&#x2F;nginx-ct-1.3.0 \
+--with-debug \
+--with-pcre-jit \
+--with-ipv6 \
+--with-http_ssl_module \
+#启用HTTP&#x2F;2.0模块
+--with-http_v2_module \
+--with-http_stub_status_module \
+--with-http_realip_module \
+--with-http_auth_request_module \
+--with-http_addition_module \
+--with-http_dav_module \
+--with-http_gzip_static_module \
+--with-http_sub_module \
+--with-mail \
+--with-mail_ssl_module
+#如无缺失依赖库,将会生成MakeFile
+
+#开始编译
+make
+#编译完成后安装
+sudo make install
+#默认安装在 &#x2F;usr&#x2F;local&#x2F;nginx 下
+
+#install Nginx End.</code></pre>
 <p>3.编译安装Php7.0</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br></pre></td><td class="code"><pre><span class="line">#从http:&#x2F;&#x2F;php.net&#x2F;get&#x2F;php-7.0.8.tar.gz&#x2F;from&#x2F;a&#x2F;mirror 下载源码并解压</span><br><span class="line">tar -xzvf xxxx.tar.gz </span><br><span class="line"></span><br><span class="line">#安装依赖</span><br><span class="line">apt-get install libxml2-dev  libssl-dev libcurl4-gnutls-dev libmcrypt-dev</span><br><span class="line"></span><br><span class="line">#解压镜像，然后进入文件夹中</span><br><span class="line">.&#x2F;configure --prefix&#x3D;&#x2F;usr&#x2F;local&#x2F;php7 \</span><br><span class="line">--exec-prefix&#x3D;&#x2F;usr&#x2F;local&#x2F;php7 \</span><br><span class="line">--bindir&#x3D;&#x2F;usr&#x2F;local&#x2F;php7&#x2F;bin \</span><br><span class="line">--sbindir&#x3D;&#x2F;usr&#x2F;local&#x2F;php7&#x2F;sbin \</span><br><span class="line">--includedir&#x3D;&#x2F;usr&#x2F;local&#x2F;php7&#x2F;include \</span><br><span class="line">--libdir&#x3D;&#x2F;usr&#x2F;local&#x2F;php7&#x2F;lib&#x2F;php \</span><br><span class="line">--mandir&#x3D;&#x2F;usr&#x2F;local&#x2F;php7&#x2F;php&#x2F;man \</span><br><span class="line">--enable-mbstring \</span><br><span class="line">--with-curl \</span><br><span class="line">--with-gd \</span><br><span class="line">--with-config-file-path&#x3D;&#x2F;usr&#x2F;local&#x2F;php7&#x2F;etc \</span><br><span class="line">--enable-fpm \</span><br><span class="line">--enable-mysqlnd \</span><br><span class="line">--with-pdo-mysql&#x3D;mysqlnd \</span><br><span class="line">--with-mysql-sock&#x3D;&#x2F;var&#x2F;run&#x2F;mysqld&#x2F;mysqld.sock</span><br><span class="line"></span><br><span class="line">#如提示缺少依赖包,请根据错误提示安装</span><br><span class="line"></span><br><span class="line">#开始编译</span><br><span class="line">make</span><br><span class="line">#编译测试</span><br><span class="line">make test</span><br><span class="line">#安装</span><br><span class="line">make install</span><br><span class="line"></span><br><span class="line">#install Php7 End.</span><br></pre></td></tr></table></figure>
+<pre><code>#从http:&#x2F;&#x2F;php.net&#x2F;get&#x2F;php-7.0.8.tar.gz&#x2F;from&#x2F;a&#x2F;mirror 下载源码并解压
+tar -xzvf xxxx.tar.gz 
+
+#安装依赖
+apt-get install libxml2-dev  libssl-dev libcurl4-gnutls-dev libmcrypt-dev
+
+#解压镜像，然后进入文件夹中
+.&#x2F;configure --prefix&#x3D;&#x2F;usr&#x2F;local&#x2F;php7 \
+--exec-prefix&#x3D;&#x2F;usr&#x2F;local&#x2F;php7 \
+--bindir&#x3D;&#x2F;usr&#x2F;local&#x2F;php7&#x2F;bin \
+--sbindir&#x3D;&#x2F;usr&#x2F;local&#x2F;php7&#x2F;sbin \
+--includedir&#x3D;&#x2F;usr&#x2F;local&#x2F;php7&#x2F;include \
+--libdir&#x3D;&#x2F;usr&#x2F;local&#x2F;php7&#x2F;lib&#x2F;php \
+--mandir&#x3D;&#x2F;usr&#x2F;local&#x2F;php7&#x2F;php&#x2F;man \
+--enable-mbstring \
+--with-curl \
+--with-gd \
+--with-config-file-path&#x3D;&#x2F;usr&#x2F;local&#x2F;php7&#x2F;etc \
+--enable-fpm \
+--enable-mysqlnd \
+--with-pdo-mysql&#x3D;mysqlnd \
+--with-mysql-sock&#x3D;&#x2F;var&#x2F;run&#x2F;mysqld&#x2F;mysqld.sock
+
+#如提示缺少依赖包,请根据错误提示安装
+
+#开始编译
+make
+#编译测试
+make test
+#安装
+make install
+
+#install Php7 End.</code></pre>
 <p>　　转自周海棠啦 原文链接<a href="https://nayoo.top/2018/03/17/Pi-install-PHP-Nginx/" target="_blank" rel="noopener">https://nayoo.top/2018/03/17/Pi-install-PHP-Nginx/</a></p>
 <hr>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/07/27/5/" data-id="ck8l5dfs00010kgu20vjz2fi4" class="article-share-link">Share</a>
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/" rel="tag">技术文档</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%A0%91%E8%8E%93%E6%B4%BE-%E9%A6%99%E6%A9%99%E6%B4%BE/" rel="tag">树莓派&香橙派</a></li></ul>
-
-    </footer>
-  </div>
-  
-    
-<nav id="article-nav">
-  
-    <a href="/2018/08/15/6/" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">Newer</strong>
-      <div class="article-nav-title">
-        
-          树莓派使用xrdp连接远程桌面
-        
-      </div>
-    </a>
-  
-  
-    <a href="/2018/06/27/4/" id="article-nav-older" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">Older</strong>
-      <div class="article-nav-title">沙恩的终结：只要还有最后一发炮弹 都将坚持战斗</div>
-    </a>
-  
-</nav>
-
-  
-</article>
-
-</section>
-        
-          <aside id="sidebar">
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Categories</h3>
-    <div class="widget">
-      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/HEXO/">HEXO</a><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/HEXO/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/">技术文档</a></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/">技术文档</a><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/%E6%A0%91%E8%8E%93%E6%B4%BE-%E9%A6%99%E6%A9%99%E6%B4%BE/">树莓派&香橙派</a></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%97%A5%E5%B8%B8%E6%9D%82%E8%B0%88/">日常杂谈</a><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%97%A5%E5%B8%B8%E6%9D%82%E8%B0%88/%E6%88%98%E8%88%B0%E4%B8%96%E7%95%8C-%E8%88%B0%E9%98%9F%E6%94%B6%E8%97%8F/">战舰世界&舰队收藏</a></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%A0%91%E8%8E%93%E6%B4%BE-%E9%A6%99%E6%A9%99%E6%B4%BE/">树莓派&香橙派</a><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%A0%91%E8%8E%93%E6%B4%BE-%E9%A6%99%E6%A9%99%E6%B4%BE/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/">技术文档</a></li></ul></li></ul>
-    </div>
-  </div>
-
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Tags</h3>
-    <div class="widget">
-      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/HEXO/" rel="tag">HEXO</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%88%98%E8%88%B0%E4%B8%96%E7%95%8C-%E8%88%B0%E9%98%9F%E6%94%B6%E8%97%8F/" rel="tag">战舰世界&舰队收藏</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/" rel="tag">技术文档</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%97%A5%E5%B8%B8%E6%9D%82%E8%B0%88/" rel="tag">日常杂谈</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%A0%91%E8%8E%93%E6%B4%BE-%E9%A6%99%E6%A9%99%E6%B4%BE/" rel="tag">树莓派&香橙派</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E9%A6%99%E6%A9%99%E6%B4%BE/" rel="tag">香橙派</a></li></ul>
-    </div>
-  </div>
-
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Tag Cloud</h3>
-    <div class="widget tagcloud">
-      <a href="/tags/HEXO/" style="font-size: 10px;">HEXO</a> <a href="/tags/%E6%88%98%E8%88%B0%E4%B8%96%E7%95%8C-%E8%88%B0%E9%98%9F%E6%94%B6%E8%97%8F/" style="font-size: 12.5px;">战舰世界&舰队收藏</a> <a href="/tags/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/" style="font-size: 17.5px;">技术文档</a> <a href="/tags/%E6%97%A5%E5%B8%B8%E6%9D%82%E8%B0%88/" style="font-size: 20px;">日常杂谈</a> <a href="/tags/%E6%A0%91%E8%8E%93%E6%B4%BE-%E9%A6%99%E6%A9%99%E6%B4%BE/" style="font-size: 15px;">树莓派&香橙派</a> <a href="/tags/%E9%A6%99%E6%A9%99%E6%B4%BE/" style="font-size: 10px;">香橙派</a>
-    </div>
-  </div>
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Archives</h3>
-    <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/04/">April 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/01/">January 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/11/">November 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/10/">October 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/01/">January 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/12/">December 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/11/">November 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/10/">October 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/08/">August 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/07/">July 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/06/">June 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/01/">January 2018</a></li></ul>
-    </div>
-  </div>
-
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Recent Posts</h3>
-    <div class="widget">
-      <ul>
-        
-          <li>
-            <a href="/2020/04/04/hello-world/">Hello World</a>
-          </li>
-        
-          <li>
-            <a href="/2020/01/01/18/">2019年度总结</a>
-          </li>
-        
-          <li>
-            <a href="/2019/11/17/17/">关于人工智能夕立</a>
-          </li>
-        
-          <li>
-            <a href="/2019/11/09/16/">使用Nginx反向代理访问Pixiv</a>
-          </li>
-        
-          <li>
-            <a href="/2019/10/13/15/">新主题，全新的开始</a>
-          </li>
-        
-      </ul>
-    </div>
-  </div>
-
-  
-</aside>
-        
-      </div>
-      <footer id="footer">
-  
-  <div class="outer">
-    <div id="footer-info" class="inner">
-      &copy; 2020 John Doe<br>
-      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
-    </div>
-  </div>
-</footer>
-    </div>
-    <nav id="mobile-nav">
-  
-    <a href="/" class="mobile-nav-link">Home</a>
-  
-    <a href="/archives" class="mobile-nav-link">Archives</a>
-  
-</nav>
-    
-
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-
-
-  
-<link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
-
-  
-<script src="/fancybox/jquery.fancybox.pack.js"></script>
-
-
-
-
-<script src="/js/script.js"></script>
-
-
-
-
-  </div>
-</body>
-</html>
+</p></div><div class="share"><span>Share</span>&nbsp;<span class="soc"><a href="javascript:(function(){EN_CLIP_HOST='http://www.evernote.com';try{var%20x=document.createElement('SCRIPT');x.type='text/javascript';x.src=EN_CLIP_HOST+'/public/bookmarkClipper.js?'+(new%20Date().getTime()/100000);document.getElementsByTagName('head')[0].appendChild(x);}catch(e){location.href=EN_CLIP_HOST+'/clip.action?url='+encodeURIComponent(location.href)+'&amp;title='+encodeURIComponent(document.title);}})();" ref="nofollow" target="_blank" class="fa fa-bookmark"></a></span><span class="soc"><a href="javascript:void((function(s,d,e){try{}catch(e){}var f='http://service.weibo.com/share/share.php?',u=d.location.href,p=['url=',e(u),'&amp;title=',e(d.title),'&amp;appkey=2924220432'].join('');function a(){if(!window.open([f,p].join(''),'mb',['toolbar=0,status=0,resizable=1,width=620,height=450,left=',(s.width-620)/2,',top=',(s.height-450)/2].join('')))u.href=[f,p].join('');};if(/Firefox/.test(navigator.userAgent)){setTimeout(a,0)}else{a()}})(screen,document,encodeURIComponent));" class="fa fa-weibo"></a></span><span class="soc"><a href="http://twitter.com/home?status=http://yoursite.com/2018/07/27/5/%20Hexo%20Pi编译安装PHPNginx并安装完整LEMP环境" target="_blank" rel="noopener" class="fa fa-twitter"></a></span></div><div class="pagination"><p class="clearfix"><span class="pre pagbuttons"><a role="navigation" href="/2018/08/15/6/" title="树莓派使用xrdp连接远程桌面"><i class="fa fa-angle-double-left"></i>&nbsp;Previous post: 树莓派使用xrdp连接远程桌面</a></span><span>&nbsp;</span><span class="next pagbuttons"><a role="navigation" href="/2018/06/27/4/" title="沙恩的终结：只要还有最后一发炮弹 都将坚持战斗">Next post: 沙恩的终结：只要还有最后一发炮弹 都将坚持战斗&nbsp;<i class="fa fa-angle-double-right"></i></a></span></p></div></div></div></div><div class="visible-xs site-bottom-footer"><footer><p>&copy;&nbsp;2020&nbsp;<a target="_blank" href="http://yoursite.com" rel="noopener noreferrer">John Doe</a></p><p>Theme&nbsp;<a target="_blank" href="https://github.com/SumiMakito/hexo-theme-typography" rel="noopener noreferrer">Typography</a>&nbsp;by&nbsp;<a target="_blank" href="https://www.keep.moe" rel="noopener noreferrer">Makito</a></p><p>Proudly published with&nbsp;<a target="_blank" href="https://hexo.io" rel="noopener noreferrer">Hexo</a></p></footer></div></div></div></div><script src="/js/jquery-3.1.0.min.js"></script><script src="/js/bootstrap.min.js"></script><script src="/js/jquery-migrate-1.2.1.min.js"></script><script src="/js/jquery.appear.js"></script><script src="/js/google-analytics.js"></script><script src="/js/typography.js"></script></body></html>
